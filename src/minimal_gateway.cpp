@@ -26,6 +26,11 @@ extern "C" {
     // This function bridges Scilab variables and the C function call
     int sci_minimal_multiply_by_two(scilabEnv env, int nin, scilabVar* in, int nopt, scilabOpt* opt, int nout, scilabVar* out)
     {
+        // Mark unused parameters to prevent compiler warnings
+        // This is the canonical way to handle unused parameters in C/C++ code
+        (void)nopt;  // Explicitly cast to void to indicate intentional non-use
+        (void)opt;   // Same for this parameter
+        
         int input_val = 0;
         int result_val = 0;
         int* matrix_in = NULL;
