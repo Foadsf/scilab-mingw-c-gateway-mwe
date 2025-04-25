@@ -1,0 +1,53 @@
+# Compiled files and artifacts
+*.o
+*.obj
+*.dll
+*.exe
+*.lib
+*.a
+*.so
+*.dylib
+
+# Build directories
+[Bb]uild/
+[Bb]in/
+[Dd]ebug/
+[Rr]elease/
+obj/
+out/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.ide
+*.iml
+*.ipr
+*.iws
+cmake-build-*/
+*.sublime-*
+
+# OS files
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# Log / Temp / Backup files
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*~
+.*.swp
+.*.swo
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# other
+repomix-output.xml

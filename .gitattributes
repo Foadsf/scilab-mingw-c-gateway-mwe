@@ -1,0 +1,19 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Ensure shell scripts always have LF line endings
+*.bat text eol=crlf
+*.sh text eol=lf
+
+# Source code files
+*.c text
+*.h text
+*.cpp text
+*.hpp text
+*.hxx text
+*.sci text
+*.sce text
+*.md text
+*.txt text
+*.gitignore text
+*.gitattributes text
